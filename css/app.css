@@ -27,7 +27,7 @@ body.home
 
 .aboutBody
 {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     font-size: 24px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -172,6 +172,7 @@ body.work
     width: 20vw;
     height: 50px;
     margin-top: 150px;
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -248,6 +249,38 @@ body.work
     border-bottom: 2px solid #00b7ff;
 }
 
+footer
+{
+    height: 70px;
+    background-color: rgba(100, 100, 100, .1);
+    border-top: 2px solid #8D8D8D;
+}
+
+#footerNav
+{
+    margin-left: 100px;
+    padding-top: 15px;
+    float: left;
+}
+
+#footerNav li
+{
+    margin-right: 40px;
+    display: inline;
+}
+
+#footerNav li a
+{
+    color: #303030;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#footerNav li a:hover
+{
+    color: #00b7ff;
+}
 
 
 /*MEDIA QUERY START
@@ -305,6 +338,12 @@ body.work
 
 @media screen and (max-width: 1500px)
 {
+
+    .homeItem
+    {
+        padding-top: 15px;
+    }
+
     .workCon
     {
         justify-content: center;
