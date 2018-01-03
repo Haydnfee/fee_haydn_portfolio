@@ -53,7 +53,10 @@ body.home
 
 body.about
 {
-    background-color: lightgray;
+    /*background-image: url(../images/scroll_banner.jpg);
+    background-repeat: no-repeat;
+    background-color: black;*/
+    background-color: lightgrey;
 }
 
 body.work
@@ -250,7 +253,6 @@ header
 #aboutPhoto
 {
     width: 300px;
-    height: 400px;
     color: black;
 }
 
@@ -348,7 +350,7 @@ footer
 
 #footerNav li a
 {
-    color: #303030;
+    color: #4b4b4b;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 20px;
@@ -512,7 +514,6 @@ footer
 
     #aboutPhoto
     {
-        height: 300px;
         width: 250px;
     }
    
