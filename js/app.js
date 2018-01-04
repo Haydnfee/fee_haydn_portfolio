@@ -1,3 +1,5 @@
+//jquery and plugins
+
 $(document).foundation()
 
     $(function(){
@@ -15,4 +17,9 @@ $(document).foundation()
             delay: 25,
             shuffle: true}
 
+    });
+
+//js
+    (function(){
+        
     });
