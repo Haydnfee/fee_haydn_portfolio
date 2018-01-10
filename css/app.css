@@ -25,7 +25,6 @@ body.home
     position: relative;
 }
 
-
 .aboutBody
 {
     margin-bottom: 60px;
@@ -52,9 +51,6 @@ body.home
 
 body.about
 {
-    /*background-image: url(../images/scroll_banner.jpg);
-    background-repeat: no-repeat;
-    background-color: black;*/
     background-color: lightgrey;
 }
 
@@ -96,7 +92,7 @@ header
 {
     position: relative;
     cursor: pointer;
-    width: 40px;    
+    width: 40px;
 }
 
 .dropDownContent
@@ -136,7 +132,7 @@ header
 
 .navMenu:hover .dropDownContent
 {
-    display: block; 
+    display: block;
 }
 
 #bannerCon
@@ -201,7 +197,7 @@ header
 .homeItem a:hover
 {
     color: #00b7ff;
-    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-weight: bold;
 }
 
@@ -219,9 +215,6 @@ header
     height: 500px;
     width: 15%;
     min-width: 200px;
-    /*background-image: url(../images/01.jpg);
-    background-position: center;
-    background-size: auto 500px;*/
     margin-bottom: 66px;
 }
 
@@ -392,7 +385,7 @@ header
 .contactForm input
 {
     box-shadow: 2px 2px 5px #444444;
-} 
+}
 
 #message
 {
@@ -414,7 +407,7 @@ header
 #formSubmit:hover
 {
     background-color: #1CBFFA;
-    box-shadow:-2px -2px 2px grey, 2px -2px 2px grey, -2px 2px 2px grey, 2px 2px 2px grey;  
+    box-shadow:-2px -2px 2px grey, 2px -2px 2px grey, -2px 2px 2px grey, 2px 2px 2px grey;
 }
 
 #formSubmit:active
@@ -426,6 +419,8 @@ footer
 {
     height: 60px;
     border-top: 3px solid #7E7E7E;
+    display: inline-block;
+    width: 100%;
 }
 
 #footerNav
@@ -452,7 +447,7 @@ footer
 #footerNav li a:hover
 {
     color: #00b7ff;
-    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #footerLogo
@@ -463,31 +458,7 @@ footer
     margin-right: 10px;
 }
 
-
-/*MEDIA QUERY START
-
-@media screen and (max-width: 1000px)
-{
-    
-
-    .homeItem a
-    {
-        display: none;
-    }
-
-    .bannerTxtWrap
-    {
-        display: none;
-        align-content: center;
-    }
-
-    body.home
-    {
-        background: none;
-    }
-}
-*/
-
+/*---MEDIA QUERY START---*/
 
 @media screen and (max-width: 1650px)
 {
@@ -531,7 +502,7 @@ footer
     }
 
     #aboutPhoto
-    {      
+    {
         text-align: center;
     }
 
@@ -574,7 +545,7 @@ footer
 {
     /*body.home
     {
-        background-image:url(../images/scroll_bannerM.jpg); 
+        background-image:url(../images/scroll_bannerM.jpg);
     }*/
 
     .bannerTxtWrap
@@ -587,7 +558,7 @@ footer
     {
         height: 170px;
     }
-    
+
     #footerCon
     {
         text-align: center;
@@ -633,7 +604,7 @@ footer
     {
         margin-right: 10px;
     }
-    
+
     .bannerTxtWrap
     {
         font-size: 46px;
